@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorItemLight"
+    android:orientation="vertical"
+    tools:context=".ui.competitions.CompetitionStandingsFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+<!--1-->
+            <TextView
+                android:id="@+id/group1"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/colorPrimaryLight"
+                android:gravity="center"
+                android:text="Group A"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/tableHeader"
+                android:layout_width="match_parent"
+                android:layout_height="29dp"
+                android:layout_below="@+id/group1"
+                android:src="@drawable/table_header" />
+
+            <ListView
+                android:id="@+id/internationalListView"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_below="@+id/tableHeader"
+                android:background="@color/colorItemLight"></ListView>
+<!--2-->
+            <TextView
+                android:id="@+id/group2"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_below="@id/internationalListView"
+                android:layout_marginTop="16dp"
+                android:background="@color/colorPrimaryLight"
+                android:gravity="center"
+                android:text="Group B"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/tableHeader2"
+                android:layout_width="wrap_content"
+                android:layout_height="29dp"
+                android:layout_below="@+id/group2"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/table_header" />
+
+            <ListView
+                android:id="@+id/internationalListView2"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_below="@+id/tableHeader2"
+                android:background="@color/colorItemLight"></ListView>
+<!--3-->
+            <TextView
+                android:id="@+id/group3"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_below="@id/internationalListView2"
+                android:layout_marginTop="16dp"
+                android:background="@color/colorPrimaryLight"
+                android:gravity="center"
+                android:text="Group C"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/tableHeader3"
+                android:layout_width="wrap_content"
+                android:layout_height="29dp"
+                android:layout_below="@+id/group3"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/table_header" />
+
+            <ListView
+                android:id="@+id/internationalListView3"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_below="@+id/tableHeader3"
+                android:background="@color/colorItemLight"></ListView>
+<!--4-->
+            <TextView
+                android:id="@+id/group4"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_below="@id/internationalListView3"
+                android:layout_marginTop="16dp"
+                android:background="@color/colorPrimaryLight"
+                android:gravity="center"
+                android:text="Group D"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/tableHeader4"
+                android:layout_width="wrap_content"
+                android:layout_height="29dp"
+                android:layout_below="@+id/group4"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/table_header" />
+
+            <ListView
+                android:id="@+id/internationalListView4"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_below="@+id/tableHeader4"
+                android:background="@color/colorItemLight"></ListView>
+<!--5-->
+            <TextView
+                android:id="@+id/group5"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_below="@id/internationalListView4"
+                android:layout_marginTop="16dp"
+                android:background="@color/colorPrimaryLight"
+                android:gravity="center"
+                android:text="Group E"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/tableHeader5"
+                android:layout_width="wrap_content"
+                android:layout_height="29dp"
+                android:layout_below="@+id/group5"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/table_header" />
+
+            <ListView
+                android:id="@+id/internationalListView5"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_below="@+id/tableHeader5"
+                android:background="@color/colorItemLight"></ListView>
+<!--6-->
+            <TextView
+                android:id="@+id/group6"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_below="@id/internationalListView5"
+                android:layout_marginTop="16dp"
+                android:background="@color/colorPrimaryLight"
+                android:gravity="center"
+                android:text="Group F"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/tableHeader6"
+                android:layout_width="wrap_content"
+                android:layout_height="29dp"
+                android:layout_below="@+id/group6"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/table_header" />
+
+            <ListView
+                android:id="@+id/internationalListView6"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_below="@+id/tableHeader6"
+                android:background="@color/colorItemLight"></ListView>
+<!--7-->
+            <TextView
+                android:id="@+id/group7"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_below="@id/internationalListView6"
+                android:layout_marginTop="16dp"
+                android:background="@color/colorPrimaryLight"
+                android:gravity="center"
+                android:text="Group G"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/tableHeader7"
+                android:layout_width="wrap_content"
+                android:layout_height="29dp"
+                android:layout_below="@+id/group7"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/table_header" />
+
+            <ListView
+                android:id="@+id/internationalListView7"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_below="@+id/tableHeader7"
+                android:background="@color/colorItemLight"></ListView>
+<!--8-->
+            <TextView
+                android:id="@+id/group8"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_below="@id/internationalListView7"
+                android:layout_marginTop="16dp"
+                android:background="@color/colorPrimaryLight"
+                android:gravity="center"
+                android:text="Group H"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/tableHeader8"
+                android:layout_width="wrap_content"
+                android:layout_height="29dp"
+                android:layout_below="@+id/group8"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/table_header" />
+
+            <ListView
+                android:id="@+id/internationalListView8"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_below="@+id/tableHeader8"
+                android:background="@color/colorItemLight"></ListView>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

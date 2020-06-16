@@ -1,0 +1,35 @@
+    INSERT INTO public.stage(idstage, name)
+    VALUES (1, 'FIRST_QUALIFYING_ROUND'),
+	(2, 'SECOND_QUALIFYING_ROUND'),
+            (3, 'THIRD_QUALIFYING_ROUND'),
+            (4, 'PLAY_OFF_ROUND'),
+            (5, 'GROUP_STAGE'),
+            (6, 'ROUND_OF_16'),
+            (7, 'QUARTER_FINALS'),
+            (8, 'SEMI_FINALS'),
+            (9, 'FINAL'),
+            (10, 'REGULAR_SEASON'),
+            (11, 'NULL');
+
+    INSERT INTO public.status(idstatus, name)
+    VALUES (1, 'FINISHED'),
+			(2, 'SCHEDULED'),
+                    (3, 'LIVE'),
+                    (4, 'IN_PLAY'),
+                    (5, 'PAUSED'),
+                    (6, 'POSTPONED'),
+                    (7, 'SUSPENDED'),
+                    (8, 'CANCELLED');
+
+    INSERT INTO public.goaltype(id, name)
+    VALUES (1, 'REGULAR'),
+			(2, 'OWN_GOAL'),
+                    (3, 'PENALTY');
+
+    INSERT INTO public."position"(idposition, name)
+    VALUES (1, 'GOALKEEPER'),
+	(2, 'ATTACKER'),
+            (3, 'MIDFIELDER'),
+            (4, 'DEFENDER'),
+            (5, 'COACH'),
+            (6, 'NULL');

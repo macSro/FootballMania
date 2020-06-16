@@ -1,0 +1,14 @@
+{
+  "name": "adminapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Filip",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^8.2.1"
+  }
+}

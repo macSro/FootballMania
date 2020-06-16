@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_articles"
+            android:icon="@drawable/ic_menu_articles_black_24dp"
+            android:title="@string/menu_articles" />
+        <item
+            android:id="@+id/nav_competitions"
+            android:icon="@drawable/ic_menu_competition_black_24dp"
+            android:title="@string/menu_competitions" />
+        <item
+            android:id="@+id/nav_matches"
+            android:icon="@drawable/ic_menu_matches_black_24dp"
+            android:title="@string/menu_matches" />
+        <item
+            android:id="@+id/nav_favourites"
+            android:icon="@drawable/ic_menu_favourites_black_24dp"
+            android:title="@string/menu_favourites" />
+        <item
+            android:id="@+id/nav_rules"
+            android:icon="@drawable/ic_menu_rules_black_24dp"
+            android:title="@string/menu_rules" />
+
+    </group>
+        <item android:title="@string/menu_section_management">
+            <menu>
+                <group android:checkableBehavior="single">
+
+                    <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/ic_person_black_24dp"
+                    android:title="@string/menu_profile" />
+
+                <item
+                    android:id="@+id/nav_info"
+                    android:icon="@drawable/ic_menu_info_black_24dp"
+                    android:title="@string/menu_info" />
+                </group>
+            </menu>
+        </item>
+
+</menu>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_more"
+        android:title=""
+        android:icon="@drawable/ic_more_vert_24dp"
+        android:enabled="true"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item android:title="@string/check_for_udpates"
+                android:icon="@drawable/ic_file_download_black_24dp"
+                app:showAsAction="always"
+                android:onClick="checkForUpdates">
+            </item>
+
+            <item android:title="@string/check_for_articles"
+                android:icon="@drawable/ic_assignment_returned_black_24dp"
+                app:showAsAction="always"
+                android:onClick="checkForNewArticles">
+            </item>
+        </menu>
+
+    </item>
+
+
+
+</menu>

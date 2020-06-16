@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">FootballMania</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_articles">Articles</string>
+    <string name="menu_competitions">Competitions</string>
+    <string name="menu_matches">Matches</string>
+    <string name="menu_favourites">Favourites</string>
+    <string name="menu_rules">Rules</string>
+    <string name="menu_settings">Settings</string>
+    <string name="prompt_login">login</string>
+    <string name="prompt_password">password</string>
+    <string name="action_sign_in">Sign In</string>
+    <string name="login_label">Login</string>
+    <string name="internet_error">Error - no network connection</string>
+    <string name="password_error">Error - incorrect password</string>
+    <string name="server_connection_error">Error - server connection lost</string>
+    <string name="register_label">Sign Up</string>
+    <string name="menu_user_name_greeting">Hello\t</string>
+    <string name="splashArtText">FootballMania</string>
+    <string name="menu_section_management">Management</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_info">Info</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="download_data_menu_item">Download data from server</string>
+    <string name="teams_tab">Teams</string>
+    <string name="standings_tab">Standings</string>
+    <string name="scorers_tab">Scorers</string>
+    <string name="register_password_missmatch">Password and confirmation password missmatch. \nPlease enter them again</string>
+    <string name="server_register_error">Server returned error. User with this login already exists</string>
+    <string name="server_register_succesful">User registeration ended with success. You can log in now</string>
+    <string name="cancel">Cancel (not now)</string>
+    <string name="download_now">Download now</string>
+    <string name="intital_download_data">You have no data on your device yet. Would you like to download all data from server?\nWARNING: This process will take few minutes</string>
+    <string name="new_articles_message">There are new articles on the server. Would you like to download the update?</string>
+    <string name="data_downloading_text">Data is being downloaded and inserted to database.\nPlease wait</string>
+
+
+    <!--RULES-->
+    <string name="title_general">General Rules</string>
+    <string name="title_offside">Offside Rules</string>
+    <string name="title_fouls">Fouls</string>
+    <string name="title_financial">Financial Rules</string>
+    <string name="title_history">History of Rules</string>
+
+    <string name="general1"><b>Football</b> is one of the oldest sports in the world and with that; it’s also one of the most recognised. The pinnacle of the international game comes in the form the Football World Cup. There are also tournament such as the Euro Championships, Copa America and the African Cup of Nations. Domestically the strongest leagues come from England (English Premier League), Spain (La Liga), Italy (Serie A) and Germany (Bundesliga). In parts of the world the sport is also known as Soccer.</string>
+    <string name="offside1"><b>Offside</b> can be called when an attacking player is in front of the last defender when the pass is played through to them. The offside area is designed to discourage players from simply hanging around the opponent’s goal waiting for a pass. To be onside they must be placed behind the last defender when the ball is played to them. If the player is in front of that last defender then he is deemed to be offside and free kick to the defending team will be called.</string>
+    <string name="fouls1">In the sport of association football, <b>fouls and misconduct</b> are acts committed by players which are deemed by the referee to be unfair and are subsequently penalised. An offence may be a foul, misconduct or both depending on the nature of the offence and the circumstances in which it occurs.</string>
+    <string name="financial1">With UEFA on the verge of potential investigations of certain clubs such as Manchester City and Paris Saint-Germain alleged to have broken <b>Financial Fair Play</b> rules amid the Football Leaks documents, we will take a look at what FFP is, what its rules are and what punishments clubs could face should they break the regulations.</string>
+    <string name="history1">The rules of association football (soccer) were developed under a long time. This was a game that early on lacked standard rules, instead many variants of rules were in use depending on where it was played. Today the game has reached a uniformity concerning laws of the game, but I took some time until that happened. The beginning of the process took part in Cambridge 1848 when a meeting was held, but not until a second meeting 15 years later in London could a satisfying set of rules be agreed on. The rules were, however, far from the current ones.</string>
+
+    <string name="general2">The aim of football is to score more goals then your opponent in a 90 minute playing time frame. The match is split up into two halves of 45 minutes. After the first 45 minutes players will take a 15 minute rest period called half time. The second 45 minutes will resume and any time deemed fit to be added on by the referee (injury time) will be accordingly.</string>
+    <string name="offside2">In the picture above, the player in the red circle is getting ready to pass the ball forward to one of his teammates. The player with the red arrow pointed at him is in an offside position. The reason for that is because his body is past the player with the yellow arrow pointed at him who is considered the second to last defender (Don’t forget the goalkeeper!). He is considered the second to last defender because he is the closer to his own goal line than any other player besides the goalkeeper.</string>
+    <string name="fouls2">A <b>foul</b> is an unfair act by a player, deemed by the referee to contravene the game laws, that interferes with the active play of the game. Fouls are punished by the award of a free kick (possibly a penalty kick) to the opposing team. A list of specific offences that can be fouls are detailed in Law 12 of the Laws of the Game (other infractions, such as technical infractions at restarts, are not deemed to be fouls); these mostly concern unnecessarily aggressive physical play and the offence of handling the ball.</string>
+    <string name="financial2"><b>Financial Fair Play (FFP)</b> was established by UEFA to make sure that football clubs were not spending more than they earned and, in doing so, prevent them from falling into financial troubles which may endanger their long-term survival – and, in their words, "improve the overall financial health of European football". FFP regulations were also made in order to prevent clubs from over-spending across several seasons within a set budgetary framework.</string>
+    <string name="history2">In the early days it was not possible to distinguish the two teams by the shirts and it would take even longer until numbers were used on the players shirts. Also, the sizes of the playing field could vary a lot and the same thing with numbers of players involved. When the early game arose in England during the first half of the 19th century, the rules shifted depending on which school the game was played.</string>
+
+    <string name="general3">To win you have to score more goals than that of your opponents. If the scores are level after 90 minutes then the game will end as a draw apart from in cup games where the game can go to extra time and even a penalty shootout to decide the winner. Players must use their feet to kick the ball and are prohibited to use their hands apart from goalkeepers who can use any part of their body within the box.</string>
+    <string name="offside3">The image above shows a “set piece” getting ready to play out. The player in the red circle is getting ready to pass the ball to the center of the box (where the blue arrow is pointing). His goal is to have one of his own players hit the ball with their head in order to put the ball in the net. However, at the moment the ball is kicked, four players from the team in blue are all past the final defender (the last defender is marked at the yellow line). If any of those players touch the ball, the play would be ruled offside.</string>
+    <string name="fouls3"><b>Misconduct</b> is any conduct by a player that is deemed by the referee to warrant a disciplinary sanction (caution or dismissal). Misconduct may include acts which are, additionally, fouls. Unlike fouls, misconduct may occur at any time, including when the ball is out of play, during half-time and before and after the game, and both players and substitutes may be sanctioned for misconduct.</string>
+    <string name="financial3">In 2009, a review UEFA showed evidence that more than half of 665 European clubs suffered financial losses over the course of the previous year, though a few number were able to survive their heavy losses through the wealth of their owners – but at least 20 per cent of the clubs analysed were believed to be in financial danger. The majority of football debt in Europe is owed by its three most dominant leagues in the Premier League, the Serie A and La Liga. Even among elite European clubs, continued excessive spending within the transfer market has been justified by owners and executives as being necessary to keep the club competition competitive.</string>
+    <string name="history3"><b>No referees</b> were actually involved until 1871(!). Instead, the captains of both teams were assigned to keep order. It was a gentleman sport. Yet, in 1871 with the establishment of the FA Cup it was decided that two referees should decide if the captains of each team could not agree. Seven years later, the players and the audience could also for the first time hear the referee using a whistle. Before the FIFA World Cup in 2018, it was decided that cameras would be used to assist the referees for the first time. The so-called video assistant referees could be used exclusively in decisions concerning goals, penalties and red card.</string>
+    <!--/RULES-->
+
+    <!--COMPETITIONS-->
+    <string name="no_data">No data available. Waiting for all the teams to qualify to this competition.</string>
+    <!--/COMPETITIONS-->
+
+    <!--MATCHES-->
+    <string name="no_matches">No live matches right now</string>
+    <!--/MATCHES-->
+
+    <string name="check_database_state">Check database state</string>
+    <string name="check_for_udpates">Check for updates</string>
+    <string name="download_update_data">There are new data on the server. Would you like to download the update?\nWARNING: This process will take few minutes</string>
+    <string name="check_for_articles">Check for new articles</string>
+    <string name="login_text_view">"Login: "</string>
+    <string name="email_label">"E-mail: "</string>
+    <string name="nameLabel">"Name: "</string>
+    <string name="last_update_label">"Last update: "</string>
+    <string name="change_login_button">Change login</string>
+    <string name="change_email_button">Change email</string>
+    <string name="account_management_label">Account Management</string>
+    <string name="change_name_label">"Change name: "</string>
+    <string name="change_email_label">"Change email: "</string>
+    <string name="change_password_label">Change password: </string>
+    <string name="confirm_change_password_label">Confirm password: </string>
+    <string name="apply_changes_button_text">Apply changes</string>
+    <string name="account_data_update_success">Account data has been updated successfully!</string>
+    <string name="new_data_message">There is an update to data on server. Would you like to download it now?\nWARNING: this process will take few minutes</string>
+    <string name="data_up_to_date">There is no new data on the server.</string>
+    <string name="no_new_articles">There are no new articles on the server</string>
+
+</resources>
