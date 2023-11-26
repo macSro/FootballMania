@@ -77,10 +77,11 @@ _* Documentation is written in polish_
 <p float="left" align="middle">
   <img src="img/login.png" height="350">
   <img src="img/favorites.png" height="350">
+</p>
+
+<p float="left" align="middle">
   <img src="img/standings.png" height="350">
   <img src="img/team.png" height="350">
 </p>
-
-
 
 <p align="right">(<a href="#top">back to top</a>)</p>
