@@ -51,7 +51,7 @@ App description
 7. Usage tutorial
 8. Testing
 
-_* Documentation is written in polish_
+_* Documentation is written in Polish_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
